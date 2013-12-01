@@ -1,4 +1,0 @@
-scrummer
-========
-
-Scrummer

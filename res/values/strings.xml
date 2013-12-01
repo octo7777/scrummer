@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scrummer</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="default_time">0:00</string>
+    
+</resources>
