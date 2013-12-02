@@ -1,11 +1,10 @@
 package octos.scrummer;
 
+
 /**
  * Responsible for counting time and triggering UI updates. 
  */
 class Counter implements Runnable {
-	
-	private static final Integer TIME_LIMIT = 60;
 	
 	private ScrummerActivity context;
 	
@@ -17,7 +16,8 @@ class Counter implements Runnable {
 
 	@Override
 	public void run() {
-		for (int i = 0; i <= TIME_LIMIT && !isStop(); i++) {
+		int timeLimit = context.getTimeLimit();
+		for (int i = 0; i <= timeLimit && !isStop(); i++) {
 			context.updateTime(formatTime(i));
 			sleep(1000);
 		}

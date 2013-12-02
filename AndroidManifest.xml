@@ -23,6 +23,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="octos.scrummer.SettingsActivity"
+            android:label="@string/action_settings"
+            android:screenOrientation="portrait"
+            android:parentActivityName="octos.scrummer.ScrummerActivity" >
+        </activity>
     </application>
 
 </manifest>

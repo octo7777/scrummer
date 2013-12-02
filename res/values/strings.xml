@@ -5,5 +5,10 @@
     <string name="button_start">Start</string>
     <string name="button_stop">Stop</string>
     <string name="default_time">0:00</string>
-    
+    <string name="action_settings">Settings</string>
+    <string name="maximum_time">Maximum time per person: </string>
+    <string name="first_warning">First warning after: </string>
+    <string name="second_warning">Second warning after: </string>
+    <string name="reset_to_default">Reset to default</string>
+
 </resources>
